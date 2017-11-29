@@ -8,15 +8,15 @@ var states = Object.freeze({
 
 var currentstate;
 
-var gravity = 0.5;
-var velocity = 1;
+var gravity = 0.05;
+var velocity = 0.7;
 var position = 180;
 var rotation = 0;
-var jump = -4.6;
+var jump = -6.6;
 var flyArea = $("#flyarea").height();
 
 var score = 0;
-var highscore = 0;
+var highscore = 1000;
 
 var pipeheight = 90;
 var pipewidth = 52;
